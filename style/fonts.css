@@ -2,4 +2,12 @@ h1{
   
     padding-top: 10px;
     padding-left: 10px;
+    font-size: 25px;
+}
+
+.bewertung{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(255, 128, 0);
+    font-size: 20px;
 }
