@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger {
+    width: 35px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+header{
+    height: 50px;
+    background-color:rgb(255, 128, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header img{
+    height:100px;
+    width: 100px;
+    object-fit: contain;
+    
+}
+
+.main{
+    width: 100%;
+    height: 100px;
+    
+    
+
+
+}
+
+.content_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
