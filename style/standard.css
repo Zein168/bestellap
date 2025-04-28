@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .hamburger {
@@ -59,11 +64,50 @@ header img{
 
 .menu{
     background-color: antiquewhite;
-    width: 100%;
+    
     height: 30px;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 10px;
+    margin-left: 10px;
     margin-top:10px;
 }
+
+.dialog {
+    height: auto; 
+    border: 2px solid #c5c5c5;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices{
+    color: rgb(255, 128, 0);
+}
+
+.basketDialog{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+
+.priceAndIcone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 120px;
+}
+
+.border{
+    background-color: black;
+    height: 2px;
+    margin-top: 5px;
+   
+}
+  

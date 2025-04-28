@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./style/basket.css">
     <link rel="stylesheet" href="./style/assets.css">
     <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
 </head>
 <header>
@@ -33,27 +35,41 @@
            
             <div class="menu">
                 <img class="menuIcon" src="./assets/icons/doppelpfeil.png" alt="">
-                <a href="#">Hauptgerichte</a>
-                <a href="#">Italienisch</a>
-                <a href="#">Asiatisch</a>
-                <a href="#">Orientalisch</a>
+                <a href="#section1">Hauptgerichte</a>
+                <a href="#section2">Italienisch</a>
+                <a href="#section3">Asiatisch</a>
+                <a href="#section4">Orientalisch</a>
             </div>
-          
+            <h2 id="section1">Hauptgerichte</h2>
             <div id="mainCourse"></div>
+
+            <h2 id="section2">Italienisch</h2>
+            <div id="italienisch"></div>
+        
+            <h2 id="section3">Asiatisch</h2>
+            <div id="asiatisch"></div>
+
+            <h2 id="section4">Orientalisch</h2>
+            <div id="orientalisch"></div>
+         
             
            
         </section>
         <section class="basket_wrapper">
             <div class="basket">
                 <p>Warenkorb</p>
+                <div class="border"></div>
+                <div id="basket"></div>
+                
             </div>
         </section>
         
     </div>
-
+    
 
    <script  type="module" src="./scripts/db.js"></script>
    <script  type="module" src="./scripts/template.js"></script>
+   <script  type="module" src="./scripts/script.js"></script>
       
 </body>
 </html>
